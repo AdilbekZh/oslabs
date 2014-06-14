@@ -1,0 +1,13 @@
+_______________________________________________________________________________
+Problem 1. Enter positive numbers, write sum. halt when negarive number.
+
+1010 - enter number
+2010 - load to accumulator
+4107 - branch negative, if neg. then go to halt command 
+3011 - add to previous sum new number
+2111 - save it in memory location at 11
+1111 - write sum
+4000 - branch to first commant(loop)
+4300 - halt command
+______________________________________________________________________________
+Problem 2. 
